@@ -1,9 +1,3 @@
-$(document).ready( function()
-		{
-$('#paragraph').click(function()
-		{
-	$('#paragraph').hide();
-		}
-		)
-		}
-);
+var count= $('#paragraph').find('*').length;
+alert(count);
+
